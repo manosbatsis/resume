@@ -1,0 +1,20 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Manos Batsis' resume",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manosbatsis/resume.git"
+  },
+  "keywords": [
+    "jsonresume",
+    "resume",
+    "developer"
+  ],
+  "author": "manosbatsis@gmail.com",
+  "homepage": "https://github.com/manosbatsis/resume#readme",
+  "devDependencies": {
+    "jsonresume-theme-standard-resume": "^1.3.0",
+    "resume-cli": "^3.0.3"
+  }
+}
