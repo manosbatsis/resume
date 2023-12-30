@@ -1,0 +1,589 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Manos (Emmanouil) Batsis",
+    "label": "Information and Software Architect",
+    "image": "",
+    "email": "manosbatsis@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "A beach bum and hands-on software development bloke with two decades of experience in banking/finance, telcos, public administration, systems integration and odd startup environments. My focus for the past few years combines financial standards like ISDA CDM and ISO 20022 with development on Corda, web3, cross-chain integration and custom L2 solutions.",
+    "location": {
+      "countryCode": "US",
+      "address": "Greece"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "manosbatsis",
+        "url": "https://www.linkedin.com/in/manosbatsis/"
+      },
+      {
+        "network": "Twitter",
+        "username": "mbatsis",
+        "url": "https://twitter.com/mbatsis"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "PayNetX",
+      "position": "Co-Founder & CTO",
+      "startDate": "2023-06-30",
+      "endDate": "",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/paynetx/",
+      "location": "London Area, United Kingdom"
+    },
+    {
+      "name": "Various Organisations",
+      "position": "Software Architect (contract)",
+      "startDate": "2002-11-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Key contributor in enterprise-grade initiatives for organizations around the globe:\n    • Banking/finance: ATE Bank, Millennium Bank (both bought by Piraeus Bank), Alpha Bank, Standard Chartered, TradeIX (now Marco Polo Network), Ivno (bought by R3), XinFin/XDC Network/Impel, Fragmos Chain and others.\n    • Telco: Vodafone, Telestet (now Wind), Cosmote.\n    • Public Administration: EU commission and Directorates-General (Dgs), ministries, law enforcement and other government organizations within France, Spain, Scotland, Greece and others.\n    • Several IT providers and service integrators, including Sun Microsystems (bought by Oracle), European Dynamics and LAB577 (now part of BCB Group).\n    • Miscellaneous other startups and companies in diverse markets like TrustLayer and Ledger8760 (now nZero?).",
+      "url": "",
+      "location": "USA, FR, DE, BE, GR, SE, UK, CH. SG"
+    },
+    {
+      "name": "Alpha Bank",
+      "position": "Software Architect, Principal Developer (contract)",
+      "startDate": "2014-06-30",
+      "endDate": "2015-06-30",
+      "highlights": [],
+      "summary": "Led the technical design, development and support of CMART, the bank's “Customer Relationship Management System for Network Customers“. This custom CRM implementation provided, for the first time ever in the Bank’s history, an \"all-round, real-time information on Customers, private individuals and businesses alike\" and has been used in production since its first release in Q4 of 2014.",
+      "url": "https://www.linkedin.com/company/alpha-bank/",
+      "location": "Athens, Greece"
+    },
+    {
+      "name": "Abiss.gr",
+      "position": "Co Founder & Chief Technologist",
+      "startDate": "2005-06-30",
+      "endDate": "2014-07-31",
+      "highlights": [],
+      "summary": "Worked with local system integrators, acting as a subcontractor for projects in the public sector.",
+      "url": "https://www.linkedin.com/company/abiss.gr/",
+      "location": "Athens, Greece"
+    },
+    {
+      "name": "Civic (UK)",
+      "position": "Head of Software Solutions (rolling contract)",
+      "startDate": "2011-05-31",
+      "endDate": "2014-02-28",
+      "highlights": [],
+      "summary": "Collaborated with a distributed team of remote business and technical staff, mainly responsible for design, development, maintenance and support of Civic's ContentControl CMS, a product used by a number of organizations in both the public and private sector and Ffora, the company's first SaaS offering.",
+      "url": "https://www.linkedin.com/company/civic-computing/"
+    },
+    {
+      "name": "European Dynamics",
+      "position": "Technical Lead (rolling contract)",
+      "startDate": "2004-12-31",
+      "endDate": "2007-12-31",
+      "highlights": [],
+      "summary": "Created and supported a technology stack that was widely and successfully used as an applications development framework by software teams. Acted as the technical lead in projects for the public sector throughout the EU, including the European Commission and a number of  Directorates-General (DGs).",
+      "url": "https://www.linkedin.com/company/european-dynamics/"
+    },
+    {
+      "name": "Netsmart S.A.",
+      "position": "Senior Developer",
+      "startDate": "2002-12-31",
+      "endDate": "2004-12-31",
+      "highlights": [],
+      "summary": "Designed and implemented solutions for projects in telecoms (Vodafone Live!, Telestet Billing), healthcare (Panaceia iTV) and IST. The company had  numerous partners, with SUN Microsystems’ Professional Services division being a major collaborator.",
+      "url": "",
+      "location": "Athens, Greece"
+    },
+    {
+      "name": "Broker Systems",
+      "position": "Markup Languages Expert",
+      "startDate": "2001-12-31",
+      "endDate": "2002-12-31",
+      "highlights": [],
+      "summary": "Designed and implemented database and XML schemas, DHTML and XSLT libraries, UI templates and prototypes, components for ASP applications. Projects: ATE Intranet, XRHMA and others",
+      "url": "https://www.linkedin.com/company/broker-systems/",
+      "location": "Athens, Greece"
+    },
+    {
+      "name": "Profile Software",
+      "position": "Web Developer",
+      "startDate": "2000-12-31",
+      "endDate": "2001-12-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/profile-software/",
+      "location": "Athens, Greece"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "R3",
+      "position": "Mentor",
+      "startDate": "2022-06-30",
+      "endDate": "2022-06-30",
+      "summary": "Sharing my knowledge and experience with participants of R3’s Venture Development program, to support their web3 journey and shorten their time to market.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/5388972"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Nicosia",
+      "area": "Decentralized Finance (DeFi)",
+      "studyType": "Distance Learning (six weeks)",
+      "startDate": "2023-04-30",
+      "endDate": "2023-05-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Mediterranean College (Bangor University, Wales)",
+      "area": "Computer Science with Business Studies",
+      "studyType": "BSc",
+      "startDate": "2001-09-30",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "TEL Sparta",
+      "area": "Computer Programming",
+      "studyType": "Information Technology",
+      "startDate": "1994-12-31",
+      "endDate": "1998-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Nicosia",
+      "area": "Blockchain and Digital Currency",
+      "studyType": "Distance Learning (12 weeks)",
+      "startDate": "2023-02-28",
+      "endDate": "2023-04-30",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Corda Certified Developer",
+      "issuer": "R3",
+      "startDate": "2018-09-30",
+      "url": "https://www.youracclaim.com/go/HyhIMIYy"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Vaultaire: Corda Vault Queries  Made Simple",
+      "publisher": "Medium",
+      "releaseDate": "2019-10-01",
+      "summary": "",
+      "url": "https://link.medium.com/b3swlfYgl1"
+    },
+    {
+      "name": "Streaming Transformations for XML (STX)",
+      "publisher": "stx mailing list participants",
+      "releaseDate": "2007-04-27",
+      "summary": "Streaming Transformations for XML (STX) is a one-pass transformation language for XML documents. STX is intended as a high-speed, low memory consumption alternative to XSLT, using the W3C XQuery 1.0 and XPath 2.0 Data Model. Since STX does not require the construction of an in-memory tree, it is suitable for use in resource constrained scenarios. The aim of this project is to develop and maintain an STX language specification.",
+      "url": "http://stx.sourceforge.net/"
+    },
+    {
+      "name": "Sarissa to the Rescue",
+      "publisher": "O'Reilly",
+      "releaseDate": "2005-02-23",
+      "summary": "This article introduced basic cross-browser XML development with the aid of the Sarissa javascript library.",
+      "url": "http://www.xml.com/pub/a/2005/02/23/sarissa.html"
+    },
+    {
+      "name": "Human Markup Language  (HumanML): Sharing across Perspective Shifts",
+      "publisher": "CIDOC CRM Special Interest Group Conference",
+      "releaseDate": "2003-03-23",
+      "summary": "Human Markup Language, a set of standard HumanML tags, are designed for explicitly indicating \"humanness\" -- meaningfulness originating in your point of view and interpreted in the perspective of your fellow in communicating. Gaps in perspectives are to be expected in globalized communication. But resolving them fast is of supreme importance.",
+      "url": "http://www.cidoc-crm.org/symposiun_abstracts/doc_files/landr/humlacrossPerspectives.html"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Open Source",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java Enterprise Edition",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Abiss.gr",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CIVIC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hypermedia",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scala",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Open Standards",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JBoss Application Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "UML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Tomcat",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JUnit",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML 5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AJAX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML Schema",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XSLT",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "RDF",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Corda",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Schematron",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ant",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kotlin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SOA",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "RELAX NG",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hibernate",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Maven",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Marionette.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Backbone.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Design Patterns",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ember.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Dyslexic Thinking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SOAP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Semantic Web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ElasticSearch",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Full Professional",
+      "language": "English"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Greek"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Vincent Jugé",
+      "reference": "We worked together and thanks to his strong skills in Java, Kotlin, Spring and Corda, we were able to start and deliver very quickly.\nEspecially in the field of Corda blockchain, Manos is a known and recognized expert. His many open source contributions are truly newsworthy.\nAlso, he has the perspective and the ability to solve complex problems while taking into account the constraints of the project, the environment and the available resources.\nAnd in addition, Manos is always in a good mood, which is appreciable as a team!\nI obviously recommend, and would be delighted to work together again"
+    },
+    {
+      "name": "Daniel Ivanier",
+      "reference": "Manos worked for 18 months in my company.\nHe brought his tremendous experience to Fragmos Chain. His expertise in Corda, his creativity in developing new multi-purpose tools were real assets for us. "
+    },
+    {
+      "name": "Philippe Redaelli",
+      "reference": "I had the chance to work with Manos as a Chief Product Officer of a Corda blockchain based app for complex financial product. Simply said, Manos is an oustanding software architect. He listens to business objectives and concerns for real. He then brings in an encyclopedic knowledge of IT environments, in our case Corda. He combines it with a solid practical sense, a high working capacity and a gentle way of working that more than once brought me to the next level. He just makes software development extremely productive and pleasant."
+    },
+    {
+      "name": "Kim Sun Chan",
+      "reference": "Manos is technically sound and an experience developer in Web Application and BlockChain Application on R3 Corda.   "
+    },
+    {
+      "name": "Ioannis Lagos",
+      "reference": "I know Mano 15 years all this time we worked together to several project in different industries . The  companies we cooperate were 100% satisfied from the quality of his services and the time of the deliverance.  He is one of the best developers I ever cooperate and he is keep his self updated regarding the developments his industry . I will definitely  recommend him for anybody who need a person with his expertise"
+    },
+    {
+      "name": "Panagiota Karadimitriou",
+      "reference": "Manos is a very experienced chief technologist with a wide spectrum of knowledge on various areas of software development and architecture. From the early xml days of late 90s to today I have encountered Manos' work in various companies and have seen him deliver solid results, always working with cutting edge tools and technologies. He is very knowledgeable in J2EE, SOA and XML and has delivered good solutions while leading technical teams to the desired outcomes. His soft skills are also a big asset as he is proactive and motivational and with good humour, with an ability to drive teamwork. I would strongly recommend Manos in positions of architect, chief technologist and technical/project lead."
+    },
+    {
+      "name": "Dejan Kocic",
+      "reference": "Along with his extensive experience in various SW platforms, Manos is a hard working, goal driven professional. Looking back, I remember clear goals, high spirits and positive results! It was a great pleasure working alongside the team he lead and I would not hesitate recommending him to anyone seeking great business outcomes."
+    },
+    {
+      "name": "Jad Yaghi",
+      "reference": "I worked with Manos on a couple of freelance development projects, me as the client and him as the head of his free lance team.\r\n\r\nVery organized, highly communicative and very customer oriented. Several times he went the extra mile to ensure that my expectations were met on a timely basis. Further, he will communicate in a clear manner any obstacles to delivering those expectations.\r\n\r\nVery skilled developer on multiple stacks. and stacks he isnt a pro at, he has a wide network of developers to help. coupled with excellent communication skills makes him a Highly recommended free lance developer/developer lead. Bonus, grows and will share his own honey and olive oil."
+    },
+    {
+      "name": "George Koutsakis",
+      "reference": "I have worked with Manos for the Banking CRM project developed for ALPHA BANK. He was the lead developer for the project. Manos is an experienced developer with significant architecture skills. He is an independent, committed and self-driven person who is always willing to take on tasks that appear too difficult. He does a great job taking on tasks from the beginning to the end. Last but not least, Manos is a very smart person with great sense of humor despite difficulties and set-backs. I highly recommend him as a senior developer/architect for any IT project."
+    },
+    {
+      "name": "Leondis Chris",
+      "reference": "Resourceful and practical to deliver the final customer needs. He was  constructive and beneficial for both of our companies. Looking back hoping  that all the cooperation's are like this one."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Partiture",
+      "startDate": "2019-12-31",
+      "summary": "A compact component framework for your Corda apps.",
+      "url": "https://manosbatsis.github.io/partiture/"
+    },
+    {
+      "name": "Vaultaire",
+      "startDate": "2019-12-31",
+      "summary": "Query DSL and data access utilities for Corda developers.",
+      "url": "https://manosbatsis.github.io/vaultaire/"
+    },
+    {
+      "name": "Lagom Exchangeratesapi.io",
+      "startDate": "2018-12-31",
+      "summary": "A simple currency exchange REST service build with Scala on Lagom, demonstrating basic integration of exchangeratesapi.io as an unmanaged Service.",
+      "url": "https://github.com/manosbatsis/lagom-exchangeratesapi"
+    },
+    {
+      "name": "Corbeans: Corda integration for Spring Boot",
+      "startDate": "2018-09-30",
+      "summary": "Corbeans is a set of modules that help integrate Corda into the Spring Boot ecosystem.",
+      "url": "https://manosbatsis.github.io/corbeans/"
+    },
+    {
+      "name": "Restdude",
+      "startDate": "2013-06-30",
+      "summary": "Full stack, high level framework for horizontal, model-driven application hackers",
+      "url": "https://manosbatsis.github.io/restdude/"
+    },
+    {
+      "name": "Concise Bounded Descriptions of RDF resources for Java",
+      "startDate": "2013-01-31",
+      "summary": "URIQA4J is an implementation of Nokia's URI Query Agent Model for the Java platform. Used as a component for your web application, it exposes your Java Objects encoded as Concise Bounded Descriptions of RDF resources.",
+      "url": "https://sourceforge.net/projects/uriqa4j/",
+      "endDate": "2013-01-31"
+    },
+    {
+      "name": "Maven JS Tools",
+      "startDate": "2008-05-31",
+      "summary": "The Maven JSTools Plugin provides a Maven interface to a set of JavaScript reporting and documentation tools like JSDoc Toolkit and JSLint, along a simple approach for building JS artifacts and use them as dependencies in your Maven-based projects",
+      "url": "http://dev.abiss.gr/mvn-jstools/"
+    },
+    {
+      "name": "MD4J",
+      "startDate": "2006-12-31",
+      "summary": "MD4J is a passive, model driven, extensible J2EE webapp generator. Hibernate 3 mappings are supported as input, with EJB 2.1, Struts 1.x and JSP 2.0 as output for CRUD and Search operations with patterns like MVC, DAO and SessionFacade. Ant task included.",
+      "url": "http://dev.abiss.gr/md4j/",
+      "endDate": "2006-12-31"
+    },
+    {
+      "name": "IDABC e-Procurement Studies and Demonstrators (European Commission)",
+      "startDate": "2004-12-31",
+      "summary": "The objective of the software demonstrators is to help software editors and contracting authorities in Europe to develop eProcurement systems in line with the EU legislative framework. The demonstrators simulate the application of the Functional Requirements for carrying out electronic public procurement under the EU legislative framework. The software demonstrators are fully open source subjected to the EUPL licence.",
+      "url": "http://ec.europa.eu/idabc/eprocurement.html",
+      "endDate": "2004-12-31"
+    },
+    {
+      "name": "e-PPS (electronic Public Procurement System)",
+      "startDate": "2004-12-31",
+      "summary": "e-PPS (electronic Public Procurement System) is an open, secure, interoperable and re-configurable platform allowing the implementation of a full cycle of electronic public procurement. e-PPS uses open standards and fully complies with EU legislation on public procurement.\n\ne-PPS is the most complete and advanced platform available today and it is offered as open source software with several installations in the EU and internationally. The system supports interaction between citizens, businesses, and public administrations allowing them to implement in a fully automated fashion any type of electronic public procurement. ",
+      "url": "http://www.e-pps.eu",
+      "endDate": "2004-12-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
