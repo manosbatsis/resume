@@ -6,185 +6,274 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	
 	<title>Manos (Emmanouil) Batsis</title>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-	
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
-	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
-}
-a {
-	color: #2ecc71;
-}
-a:focus,
-a:hover {
-	color: #f1c40f;
-	text-decoration: none;
-}
-p {
-	line-height: 1.5;
-	margin: 0;
-}
-p + p {
-	margin-top: 10px;
-}
+
+	<style>
+	html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
 h1,
 h2,
 h3,
-h4 {
-	margin-top: 0
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
 section {
-	margin-top: 30px;
+  display: block;
 }
-li {
-	line-height: 1.8;
-	list-style: none;
+body {
+  line-height: 1.5;
 }
-li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
+ol,
+ul {
+  list-style: none;
 }
-blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
+blockquote,
+q {
+  quotes: none;
 }
-em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
-h4 span:first-child {
-	color: #000;
-	font-weight: bold;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-.container {
-	max-width: 750px;
-	padding: 0 30px;
-}
-.col-sm-6 {
-	margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-	margin-top: 12px; 
-}
-.col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
-}
-#header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
-}
-#header h2 {
-	color: #95a5a6;
-	font-size: 24px;
-}
-#content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
-}
-#content aside {
-	text-align: right;
-	padding-right: 30px;
-}
-#profiles .network {
-	text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-#education .area {
-	font-weight: bold;
-}
-#education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
-}
-#education .studyType {
-	margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-	margin-top: 8px;
-}
-#publications .website a:before {
-	content: attr(href);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+html,
+button,
+input,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
+:root {
+  --text: #333333;
+  --headline: #c9cccf;
+  --sub-headline: #96999b;
+  --primary: rgb(207, 214, 255);
+  --secondary: rgb(238, 245, 255);
 }
-@media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
+
+body {
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  max-width: 600px;
+  color: var(--text);
 }
-@media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}	
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
+
+h1 {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--headline);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+h3 {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  margin-top: 0.5rem;
+}
+
+h4 {
+  font-size: 14px;
+  color: var(--sub-headline);
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+
+p,
+li {
+  margin-bottom: 0.25rem;
+  font-size: 14px;
+}
+
+a {
+  transition: box-shadow 160ms ease 0s;
+  box-shadow: var(--secondary) 0px -9px 0px inset;
+  border-bottom: 2px solid var(--primary);
+  text-decoration: none;
+  color: var(--text);
+}
+
+a:hover {
+  box-shadow: var(--primary) 0px -1.2em 0px inset;
+}
+
+section ul {
+  margin-top: 0.5rem;
+  margin-left: 2.5rem;
+  list-style: disc;
+}
+
+.contact {
+  padding-top: 2rem;
+}
+
+.contact span {
+  width: 100px;
+  display: inline-block;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.skills li {
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  padding: 0.25rem 1rem;
+  background-color: var(--secondary);
+  white-space: nowrap;
+}
+
+.position {
+  margin-bottom: 1.5rem;
+}
+
+.grey {
+  color: var(--sub-headline);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pdf {
+  color: var(--headline);
+  transition: color ease 160ms;
+  border: none;
+  box-shadow: none;
+}
+
+.pdf:hover {
+  box-shadow: none;
+  color: var(--sub-headline);
+}
+
+@media print {
+  body {
+    padding: 0rem;
+  }
+
+  section,
+  div {
+    page-break-inside: avoid;
+  }
+
+  .pdf {
+    display: none;
+  }
 }
 
 	</style>
@@ -192,770 +281,285 @@ h4 span:first-child {
 	</head>
 	<body>
 	
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						Manos (Emmanouil) Batsis
-					</h1>
-					<h2>
-						Information and Software Architect
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
-
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email">manosbatsis@gmail.com</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone"></div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>A beach bum and hands-on software development bloke with two decades of experience in banking/finance, telcos, public administration, systems integration and odd startup environments. My focus for the past few years combines financial standards like ISDA CDM and ISO 20022 with development on Corda, web3, cross-chain integration and custom L2 solutions.</p>
-		</div>
-	</section>
-	<section id="profiles" class="row">
-		<aside class="col-sm-3">
-			<h3>Profiles</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						LinkedIn
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://www.linkedin.com/in/manosbatsis/">manosbatsis</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						Twitter
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://twitter.com/mbatsis">mbatsis</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2023-06-30 — 
-					</span>
-				</h4>
-				<div class="position">
-					Co-Founder &amp; CTO
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2002-11-30 — 
-					</span>
-				</h4>
-				<div class="position">
-					Software Architect (contract)
-				</div>
-				<div class="summary">
-					<p>Key contributor in enterprise-grade initiatives for organizations around the globe:
-    • Banking/finance: ATE Bank, Millennium Bank (both bought by Piraeus Bank), Alpha Bank, Standard Chartered, TradeIX (now Marco Polo Network), Ivno (bought by R3), XinFin/XDC Network/Impel, Fragmos Chain and others.
-    • Telco: Vodafone, Telestet (now Wind), Cosmote.
-    • Public Administration: EU commission and Directorates-General (Dgs), ministries, law enforcement and other government organizations within France, Spain, Scotland, Greece and others.
-    • Several IT providers and service integrators, including Sun Microsystems (bought by Oracle), European Dynamics and LAB577 (now part of BCB Group).
-    • Miscellaneous other startups and companies in diverse markets like TrustLayer and Ledger8760 (now nZero?).</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2014-06-30 — 2015-06-30
-					</span>
-				</h4>
-				<div class="position">
-					Software Architect, Principal Developer (contract)
-				</div>
-				<div class="summary">
-					<p>Led the technical design, development and support of CMART, the bank&#x27;s “Customer Relationship Management System for Network Customers“. This custom CRM implementation provided, for the first time ever in the Bank’s history, an &quot;all-round, real-time information on Customers, private individuals and businesses alike&quot; and has been used in production since its first release in Q4 of 2014.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2005-06-30 — 2014-07-31
-					</span>
-				</h4>
-				<div class="position">
-					Co Founder &amp; Chief Technologist
-				</div>
-				<div class="summary">
-					<p>Worked with local system integrators, acting as a subcontractor for projects in the public sector.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2011-05-31 — 2014-02-28
-					</span>
-				</h4>
-				<div class="position">
-					Head of Software Solutions (rolling contract)
-				</div>
-				<div class="summary">
-					<p>Collaborated with a distributed team of remote business and technical staff, mainly responsible for design, development, maintenance and support of Civic&#x27;s ContentControl CMS, a product used by a number of organizations in both the public and private sector and Ffora, the company&#x27;s first SaaS offering.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2004-12-31 — 2007-12-31
-					</span>
-				</h4>
-				<div class="position">
-					Technical Lead (rolling contract)
-				</div>
-				<div class="summary">
-					<p>Created and supported a technology stack that was widely and successfully used as an applications development framework by software teams. Acted as the technical lead in projects for the public sector throughout the EU, including the European Commission and a number of  Directorates-General (DGs).</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2002-12-31 — 2004-12-31
-					</span>
-				</h4>
-				<div class="position">
-					Senior Developer
-				</div>
-				<div class="summary">
-					<p>Designed and implemented solutions for projects in telecoms (Vodafone Live!, Telestet Billing), healthcare (Panaceia iTV) and IST. The company had  numerous partners, with SUN Microsystems’ Professional Services division being a major collaborator.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2001-12-31 — 2002-12-31
-					</span>
-				</h4>
-				<div class="position">
-					Markup Languages Expert
-				</div>
-				<div class="summary">
-					<p>Designed and implemented database and XML schemas, DHTML and XSLT libraries, UI templates and prototypes, components for ASP applications. Projects: ATE Intranet, XRHMA and others</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span></span>
-					<span class="date">
-						2000-12-31 — 2001-12-31
-					</span>
-				</h4>
-				<div class="position">
-					Web Developer
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="volunteer" class="row">
-		<aside class="col-sm-3">
-			<h3>Volunteer</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>R3</span>
-					<span class="date">
-						2022-06-30 — 2022-06-30
-					</span>
-				</h4>
-				<div class="position">
-					Mentor
-				</div>
-				<div class="summary">
-					<p>Sharing my knowledge and experience with participants of R3’s Venture Development program, to support their web3 journey and shorten their time to market.</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>University of Nicosia</span>
-					<span class="date">
-						2023-04-30 — 2023-05-31
-					</span>
-				</h4>
-				<div class="area">
-					Decentralized Finance (DeFi)
-				</div>
-				<div class="studyType">
-					Distance Learning (six weeks)
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Mediterranean College (Bangor University, Wales)</span>
-					<span class="date">
-						2001-09-30 — 
-					</span>
-				</h4>
-				<div class="area">
-					Computer Science with Business Studies
-				</div>
-				<div class="studyType">
-					BSc
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>TEL Sparta</span>
-					<span class="date">
-						1994-12-31 — 1998-12-31
-					</span>
-				</h4>
-				<div class="area">
-					Computer Programming
-				</div>
-				<div class="studyType">
-					Information Technology
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>University of Nicosia</span>
-					<span class="date">
-						2023-02-28 — 2023-04-30
-					</span>
-				</h4>
-				<div class="area">
-					Blockchain and Digital Currency
-				</div>
-				<div class="studyType">
-					Distance Learning (12 weeks)
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	
-	<section id="publications" class="row">
-		<aside class="col-sm-3">
-			<h3>Publications</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Vaultaire: Corda Vault Queries  Made Simple</span>
-					<span class="date">
-						2019-10-01
-					</span>
-				</h4>
-				<div class="publisher">
-					<em>Published by</em>
-					<strong>Medium</strong>
-				</div>
-				<div class="summary">
-					<p></p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Streaming Transformations for XML (STX)</span>
-					<span class="date">
-						2007-04-27
-					</span>
-				</h4>
-				<div class="publisher">
-					<em>Published by</em>
-					<strong>stx mailing list participants</strong>
-				</div>
-				<div class="summary">
-					<p>Streaming Transformations for XML (STX) is a one-pass transformation language for XML documents. STX is intended as a high-speed, low memory consumption alternative to XSLT, using the W3C XQuery 1.0 and XPath 2.0 Data Model. Since STX does not require the construction of an in-memory tree, it is suitable for use in resource constrained scenarios. The aim of this project is to develop and maintain an STX language specification.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Sarissa to the Rescue</span>
-					<span class="date">
-						2005-02-23
-					</span>
-				</h4>
-				<div class="publisher">
-					<em>Published by</em>
-					<strong>O&#x27;Reilly</strong>
-				</div>
-				<div class="summary">
-					<p>This article introduced basic cross-browser XML development with the aid of the Sarissa javascript library.</p>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Human Markup Language  (HumanML): Sharing across Perspective Shifts</span>
-					<span class="date">
-						2003-03-23
-					</span>
-				</h4>
-				<div class="publisher">
-					<em>Published by</em>
-					<strong>CIDOC CRM Special Interest Group Conference</strong>
-				</div>
-				<div class="summary">
-					<p>Human Markup Language, a set of standard HumanML tags, are designed for explicitly indicating &quot;humanness&quot; -- meaningfulness originating in your point of view and interpreted in the perspective of your fellow in communicating. Gaps in perspectives are to be expected in globalized communication. But resolving them fast is of supreme importance.</p>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Open Source</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Java Enterprise Edition</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Software Development</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Software Engineering</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Abiss.gr</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>CIVIC</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Hypermedia</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Scala</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Open Standards</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>JBoss Application Server</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>UML</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Linux</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Apache</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Tomcat</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>JSON</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>JUnit</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>HTML 5</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>AJAX</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Software Design</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>CSS</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>TypeScript</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>XML Schema</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>XSLT</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Web Services</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>RDF</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Spring</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>jQuery</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>JavaScript</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Corda</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Schematron</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Ant</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Kotlin</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>SOA</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>RELAX NG</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Java</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Hibernate</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Python</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Maven</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Marionette.js</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>REST</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Backbone.js</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Git</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>XML</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Design Patterns</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>MongoDB</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Ember.js</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>PostgreSQL</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>MySQL</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Dyslexic Thinking</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>SOAP</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Semantic Web</h4>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>ElasticSearch</h4>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>English</strong>
-				</div>
-				<div class="fluency">
-					Full Professional
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>Greek</strong>
-				</div>
-				<div class="fluency">
-					Native Speaker
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	
-	<section id="references" class="row">
-		<aside class="col-sm-3">
-			<h3>References</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>We worked together and thanks to his strong skills in Java, Kotlin, Spring and Corda, we were able to start and deliver very quickly.
-Especially in the field of Corda blockchain, Manos is a known and recognized expert. His many open source contributions are truly newsworthy.
-Also, he has the perspective and the ability to solve complex problems while taking into account the constraints of the project, the environment and the available resources.
-And in addition, Manos is always in a good mood, which is appreciable as a team!
-I obviously recommend, and would be delighted to work together again</p>
-					<p class="name">
-						<strong>— Vincent Jugé</strong>
+	<div id="resume">
+		  <div class="header">
+		    <h1>Manos (Emmanouil) Batsis</h1>
+		  </div>
+		  
+		  <p>Information and Software Architect</p>
+		
+		    <p class="grey">, US</p>
+		
+		    <p class="grey">A beach bum and hands-on software development bloke with two decades of experience in banking/finance, telcos, public administration, systems integration and odd startup environments. My focus for the past few years combines financial standards like ISDA CDM and ISO 20022 with development on Corda, web3, cross-chain integration and custom L2 solutions.</p>
+		
+				<section class="position">
+						<h2>Work Experience</h2>
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Co-Founder &amp; CTO
+						
+						      | Invalid date
+						  
+						      - Current
+						</h4>
+						
+						
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Software Architect (contract)
+						
+						      | Invalid date
+						  
+						      - Current
+						</h4>
+						
+						  <div class="summary">
+						    <p>Key contributor in enterprise-grade initiatives for organizations around the globe:
+						    • Banking/finance: ATE Bank, Millennium Bank (both bought by Piraeus Bank), Alpha Bank, Standard Chartered, TradeIX (now Marco Polo Network), Ivno (bought by R3), XinFin/XDC Network/Impel, Fragmos Chain and others.
+						    • Telco: Vodafone, Telestet (now Wind), Cosmote.
+						    • Public Administration: EU commission and Directorates-General (Dgs), ministries, law enforcement and other government organizations within France, Spain, Scotland, Greece and others.
+						    • Several IT providers and service integrators, including Sun Microsystems (bought by Oracle), European Dynamics and LAB577 (now part of BCB Group).
+						    • Miscellaneous other startups and companies in diverse markets like TrustLayer and Ledger8760 (now nZero?).</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Software Architect, Principal Developer (contract)
+						
+						      | Invalid date
+						  
+						    - Invalid date
+						</h4>
+						
+						  <div class="summary">
+						    <p>Led the technical design, development and support of CMART, the bank&#x27;s “Customer Relationship Management System for Network Customers“. This custom CRM implementation provided, for the first time ever in the Bank’s history, an &quot;all-round, real-time information on Customers, private individuals and businesses alike&quot; and has been used in production since its first release in Q4 of 2014.</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Co Founder &amp; Chief Technologist
+						
+						      | Invalid date
+						  
+						    - Aug, 2014
+						</h4>
+						
+						  <div class="summary">
+						    <p>Worked with local system integrators, acting as a subcontractor for projects in the public sector.</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Head of Software Solutions (rolling contract)
+						
+						      | Jun, 2011
+						  
+						    - Feb, 2014
+						</h4>
+						
+						  <div class="summary">
+						    <p>Collaborated with a distributed team of remote business and technical staff, mainly responsible for design, development, maintenance and support of Civic&#x27;s ContentControl CMS, a product used by a number of organizations in both the public and private sector and Ffora, the company&#x27;s first SaaS offering.</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Technical Lead (rolling contract)
+						
+						      | Invalid date
+						  
+						    - Invalid date
+						</h4>
+						
+						  <div class="summary">
+						    <p>Created and supported a technology stack that was widely and successfully used as an applications development framework by software teams. Acted as the technical lead in projects for the public sector throughout the EU, including the European Commission and a number of  Directorates-General (DGs).</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Senior Developer
+						
+						      | Invalid date
+						  
+						    - Invalid date
+						</h4>
+						
+						  <div class="summary">
+						    <p>Designed and implemented solutions for projects in telecoms (Vodafone Live!, Telestet Billing), healthcare (Panaceia iTV) and IST. The company had  numerous partners, with SUN Microsystems’ Professional Services division being a major collaborator.</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Markup Languages Expert
+						
+						      | Invalid date
+						  
+						    - Invalid date
+						</h4>
+						
+						  <div class="summary">
+						    <p>Designed and implemented database and XML schemas, DHTML and XSLT libraries, UI templates and prototypes, components for ASP applications. Projects: ATE Intranet, XRHMA and others</p>
+						  </div>
+						
+				</section>
+				<section class="position">
+					<h3>
+							
+					</h3>
+		
+						<h4>
+						    Web Developer
+						
+						      | Invalid date
+						  
+						    - Invalid date
+						</h4>
+						
+						
+				</section>
+				<section class="position">
+						<h2>Education</h2>
+					<h3>University of Nicosia</h3>
+					<h4>
+							Distance Learning (six weeks)
+		
+								-
+							Decentralized Finance (DeFi)
+						
+						    | Invalid date
+						
+						  - Jun, 2023
+					</h4>
+				</section>
+				<section class="position">
+					<h3>Mediterranean College (Bangor University, Wales)</h3>
+					<h4>
+							BSc
+		
+								-
+							Computer Science with Business Studies
+						
+						    | Invalid date
+						
+						    - Current
+					</h4>
+				</section>
+				<section class="position">
+					<h3>TEL Sparta</h3>
+					<h4>
+							Information Technology
+		
+								-
+							Computer Programming
+						
+						    | Invalid date
+						
+						  - Invalid date
+					</h4>
+				</section>
+				<section class="position">
+					<h3>University of Nicosia</h3>
+					<h4>
+							Distance Learning (12 weeks)
+		
+								-
+							Blockchain and Digital Currency
+						
+						    | Feb, 2023
+						
+						  - Invalid date
+					</h4>
+				</section>
+				<section class="position">
+						<h2>Projects</h2>
+					<h3>
+							Vaultaire: Corda Vault Queries  Made Simple
+					</h3>
+		
+						<h4>
+							Oct, 2019
+						</h4>
+		
+				</section>
+				<section class="position">
+					<h3>
+							Streaming Transformations for XML (STX)
+					</h3>
+		
+						<h4>
+							Apr, 2007
+						</h4>
+		
+						<p>Streaming Transformations for XML (STX) is a one-pass transformation language for XML documents. STX is intended as a high-speed, low memory consumption alternative to XSLT, using the W3C XQuery 1.0 and XPath 2.0 Data Model. Since STX does not require the construction of an in-memory tree, it is suitable for use in resource constrained scenarios. The aim of this project is to develop and maintain an STX language specification.</p>
+				</section>
+				<section class="position">
+					<h3>
+							Sarissa to the Rescue
+					</h3>
+		
+						<h4>
+							Feb, 2005
+						</h4>
+		
+						<p>This article introduced basic cross-browser XML development with the aid of the Sarissa javascript library.</p>
+				</section>
+				<section class="position">
+					<h3>
+							Human Markup Language  (HumanML): Sharing across Perspective Shifts
+					</h3>
+		
+						<h4>
+							Mar, 2003
+						</h4>
+		
+						<p>Human Markup Language, a set of standard HumanML tags, are designed for explicitly indicating &quot;humanness&quot; -- meaningfulness originating in your point of view and interpreted in the perspective of your fellow in communicating. Gaps in perspectives are to be expected in globalized communication. But resolving them fast is of supreme importance.</p>
+				</section>
+			<h2>Contact Information</h2>
+			<section class="contact">
+		
+					<p>
+						<span>Email:</span>
+						<a href="mailto:manosbatsis@gmail.com" target="_blank" rel="noopener noreferrer">manosbatsis@gmail.com</a>
 					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>Manos worked for 18 months in my company.
-He brought his tremendous experience to Fragmos Chain. His expertise in Corda, his creativity in developing new multi-purpose tools were real assets for us. </p>
-					<p class="name">
-						<strong>— Daniel Ivanier</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>I had the chance to work with Manos as a Chief Product Officer of a Corda blockchain based app for complex financial product. Simply said, Manos is an oustanding software architect. He listens to business objectives and concerns for real. He then brings in an encyclopedic knowledge of IT environments, in our case Corda. He combines it with a solid practical sense, a high working capacity and a gentle way of working that more than once brought me to the next level. He just makes software development extremely productive and pleasant.</p>
-					<p class="name">
-						<strong>— Philippe Redaelli</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>Manos is technically sound and an experience developer in Web Application and BlockChain Application on R3 Corda.   </p>
-					<p class="name">
-						<strong>— Kim Sun Chan</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>I know Mano 15 years all this time we worked together to several project in different industries . The  companies we cooperate were 100% satisfied from the quality of his services and the time of the deliverance.  He is one of the best developers I ever cooperate and he is keep his self updated regarding the developments his industry . I will definitely  recommend him for anybody who need a person with his expertise</p>
-					<p class="name">
-						<strong>— Ioannis Lagos</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>Manos is a very experienced chief technologist with a wide spectrum of knowledge on various areas of software development and architecture. From the early xml days of late 90s to today I have encountered Manos&#x27; work in various companies and have seen him deliver solid results, always working with cutting edge tools and technologies. He is very knowledgeable in J2EE, SOA and XML and has delivered good solutions while leading technical teams to the desired outcomes. His soft skills are also a big asset as he is proactive and motivational and with good humour, with an ability to drive teamwork. I would strongly recommend Manos in positions of architect, chief technologist and technical/project lead.</p>
-					<p class="name">
-						<strong>— Panagiota Karadimitriou</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>Along with his extensive experience in various SW platforms, Manos is a hard working, goal driven professional. Looking back, I remember clear goals, high spirits and positive results! It was a great pleasure working alongside the team he lead and I would not hesitate recommending him to anyone seeking great business outcomes.</p>
-					<p class="name">
-						<strong>— Dejan Kocic</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>I worked with Manos on a couple of freelance development projects, me as the client and him as the head of his free lance team.
-
-Very organized, highly communicative and very customer oriented. Several times he went the extra mile to ensure that my expectations were met on a timely basis. Further, he will communicate in a clear manner any obstacles to delivering those expectations.
-
-Very skilled developer on multiple stacks. and stacks he isnt a pro at, he has a wide network of developers to help. coupled with excellent communication skills makes him a Highly recommended free lance developer/developer lead. Bonus, grows and will share his own honey and olive oil.</p>
-					<p class="name">
-						<strong>— Jad Yaghi</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>I have worked with Manos for the Banking CRM project developed for ALPHA BANK. He was the lead developer for the project. Manos is an experienced developer with significant architecture skills. He is an independent, committed and self-driven person who is always willing to take on tasks that appear too difficult. He does a great job taking on tasks from the beginning to the end. Last but not least, Manos is a very smart person with great sense of humor despite difficulties and set-backs. I highly recommend him as a senior developer/architect for any IT project.</p>
-					<p class="name">
-						<strong>— George Koutsakis</strong>
-					</p>
-				</blockquote>
-			</div>
-			<div class="col-sm-12">
-				<blockquote class="reference">
-					<p>Resourceful and practical to deliver the final customer needs. He was  constructive and beneficial for both of our companies. Looking back hoping  that all the cooperation&#x27;s are like this one.</p>
-					<p class="name">
-						<strong>— Leondis Chris</strong>
-					</p>
-				</blockquote>
-			</div>
-			</div>
-		</div>
-	</section>
-
-	</div>
-	
+		
+		
+			</section>
 	</body>
 </html>
